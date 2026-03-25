@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Squad Hub</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <!-- Background -->
+    <div class="bg"></div>
+
+    <!-- NAV -->
+    <nav class="nav">
+        <h1>🎮 Squad Hub</h1>
+        <button id="btnDiscord">Discord</button>
+    </nav>
+
+    <!-- HERO -->
+    <section class="hero glass">
+        <h2>Los Dementes</h2>
+        <p id="randomPhrase"></p>
+
+        <div class="hero-buttons">
+            <button id="btnPlay">¿Qué jugamos hoy?</button>
+            <button id="btnDisponible">Estoy disponible</button>
+        </div>
+
+        <p id="gameResult"></p>
+    </section>
+
+    <!-- SQUAD -->
+    <section class="section glass">
+        <h3>👥 Squad</h3>
+        <div id="squadContainer" class="grid"></div>
+    </section>
+
+    <!-- AGENDA -->
+    <section class="section glass">
+        <h3>📅 Próxima partida</h3>
+        <p>Hoy 22:00 - Rankeds</p>
+        <button id="btnConfirm">Confirmar asistencia</button>
+        <p id="confirmMsg"></p>
+    </section>
+
+    <!-- MEMES -->
+    <section class="section glass">
+        <h3>😂 Memes del team</h3>
+        <div class="memes">
+            <img src="/img/tMeme.png">
+            <img src="/img/tMeme2.png">
+            <img src="/img/tMeme3.webp">
+        </div>
+    </section>
+
+    <footer>
+        <p>Powered by Los Dementes</p>
+    </footer>
+
+    <script type="module" src="js/app.js"></script>
+</body>
+</html>
