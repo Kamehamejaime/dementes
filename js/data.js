@@ -56,7 +56,7 @@ export const members = [
     {
         name: "Chatito",
         role: "Yiaaa",
-        img: "/img/noimg.png",
+        img: "https://raw.githubusercontent.com/Kamehamejaime/dementes/refs/heads/main/img/noimg.png",
         status: "Coquita"
     }
 ];
